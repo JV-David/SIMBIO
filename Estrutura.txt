@@ -26,3 +26,44 @@ project/
     ├── comparison.py     # Comparação de métodos
     ├── calibration.py    # Calibração de parâmetros
     └── library.py        # Biblioteca de modelos
+
+
+
+simbio/
+│
+├── app.py
+├── config.py
+├── styles.py
+│
+├── components/
+│   ├── __init__.py
+│   ├── header.py
+│   ├── sidebar.py
+│   ├── footer.py
+│   ├── metrics.py
+│   ├── model_cards.py
+│   ├── plots.py
+│   └── data_handlers.py
+│
+├── models/
+│   ├── __init__.py
+│   ├── base_model.py
+│   ├── sir.py
+│   ├── lotka_volterra.py
+│   ├── van_der_pol.py
+│   └── reaction_diffusion.py
+│
+├── pages/
+│   ├── __init__.py
+│   ├── simulation.py
+│   ├── sensitivity.py
+│   ├── comparison.py
+│   ├── calibration.py
+│   └── library.py
+│
+└── utils/
+    ├── __init__.py
+    ├── ode_solvers.py
+    ├── parameter_calibration.py
+    ├── data_generators.py
+    └── helpers.py
