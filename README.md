@@ -9,3 +9,6 @@ Um projeto Python para aprender programação científica através da simulaçã
 - Programação orientada a objetos
 - Solução numérica de EDOs
 - Criação de dashboards científicos
+
+Testa o app aqui:
+https://simbio.streamlit.app/
