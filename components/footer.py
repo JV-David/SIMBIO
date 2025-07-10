@@ -5,6 +5,6 @@ def show_footer():
     st.markdown("""
     <div style="text-align: center;">
         <p>SIMBIO - Simulador de Dinâmica de Sistemas Biológicos</p>
-        <p>© 2023 Desenvolvido por João V. David</p>
+        <p>© 2025 Desenvolvido por João V. David</p>
     </div>
     """, unsafe_allow_html=True)
