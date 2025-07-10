@@ -3,9 +3,11 @@ from components.header import show_header
 from components.sidebar import show_sidebar
 from components.footer import show_footer
 from styles import load_styles
+from config import PAGE_CONFIG
 
 def main():
     # Configurações iniciais
+    st.set_page_config(**PAGE_CONFIG)
     load_styles()
     show_header()
     
