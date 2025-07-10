@@ -1,10 +1,11 @@
-class Config:
-    PAGE_CONFIG = {
-        "page_title": "SIMBIO - Simulador de Dinâmica de Sistemas",
-        "page_icon": "🧬",
-        "layout": "wide"
-    }
+PAGE_CONFIG = {
+    "page_title": "SIMBIO - Simulador de Dinâmica de Sistemas",
+    "page_icon": "🧬",
+    "layout": "wide"
+}
     
+class Config:
+
     MODEL_DEFAULTS = {
         "SIR": {
             "beta": 0.3,
