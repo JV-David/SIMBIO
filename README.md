@@ -5,7 +5,7 @@ Um projeto Python para aprender programação científica através da simulaçã
 - 📊 Recursos: Simulação interativa, visualização 2D/3D, análise de sensibilidade
 - 🎯 Objetivo: Praticar Python aplicado a modelagem matemática e biológica
 
-##Ideal para quem quer aprender:
+## Ideal para quem quer aprender:
 - Programação orientada a objetos
 - Solução numérica de EDOs
 - Criação de dashboards científicos
