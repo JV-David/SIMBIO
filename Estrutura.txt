@@ -1,0 +1,28 @@
+project/
+│
+├── app.py                # Arquivo principal do Streamlit
+├── config.py             # Configurações gerais
+├── styles.py             # Estilos CSS personalizados
+├── components/           # Componentes reutilizáveis
+│   ├── header.py         # Cabeçalho da aplicação
+│   ├── sidebar.py        # Barra lateral
+│   ├── metrics.py        # Componentes de métricas
+│   ├── model_cards.py    # Cards informativos dos modelos
+│   ├── plots.py          # Funções de plotagem
+│   └── footer.py         # Rodapé
+├── models/               # Modelos matemáticos
+│   ├── sir.py           # Modelo SIR
+│   ├── lotka_volterra.py # Modelo Predador-Presa
+│   ├── van_der_pol.py    # Oscilador Van der Pol
+│   └── reaction_diffusion.py # Modelo Reação-Difusão
+├── utils/                # Utilitários
+│   ├── ode_solvers.py    # Resolução de EDOs
+│   ├── parameter_calibration.py # Calibração de parâmetros
+│   ├── data_utils.py     # Manipulação de dados
+│   └── synthetic_data.py # Geração de dados sintéticos
+└── pages/                # Páginas/abas da aplicação
+    ├── simulation.py     # Simulação principal
+    ├── sensitivity.py    # Análise de sensibilidade
+    ├── comparison.py     # Comparação de métodos
+    ├── calibration.py    # Calibração de parâmetros
+    └── library.py        # Biblioteca de modelos
